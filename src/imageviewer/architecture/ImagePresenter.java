@@ -36,21 +36,25 @@ public class ImagePresenter {
     }
        
     private void onReleased(int offset) {
-        if (Math.abs(offset) > display.width() / 2) {
-            this.image = offset < 0 ? image.next() : image.prev();
-        }
-        refresh();
+        eventChange(offset);
         
     }
     
-    private void onClicked(int offset) {        
-        this.image = offset < 0 ? image.next() : image.prev();            
+    private void onClicked(int offset) {  
+        eventChange(offset);
     }
         
     
     private void refresh() {
         display.clear();
         display.paint(image.data(), 0, 1);
+    }
+
+    private void eventChange(int offset) {
+        if (Math.abs(offset) > display.width() / 2) {
+            this.image = offset < 0 ? image.next() : image.prev();
+        }
+        refresh();
     }
     
     
