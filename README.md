@@ -19,8 +19,8 @@ En este proyecto se ha conseguido este objetivo aplicando MVP.
 
 # Avanzamos nuevamente de imagen.
 
-![Tercera Imagen](https://github.com/FerPellicerKatas/ImageViewer-MVC/blob/master/ejemplosImagenes/fondo3.png)
+![Tercera Imagen](https://github.com/FerPellicerKatas/ImageViewer-MVP/blob/master/imagesExample/imagenEjemplo3.png)
 
 # Volvemos a la imagen anterior deslizando.
 
-![Cuarta Imagen](https://github.com/FerPellicerKatas/ImageViewer-MVP/blob/master/imagesExample/imagenEjemplo3.png)
+![Cuarta Imagen](https://github.com/FerPellicerKatas/ImageViewer-MVP/blob/master/imagesExample/imagenEjemplo2.png)
