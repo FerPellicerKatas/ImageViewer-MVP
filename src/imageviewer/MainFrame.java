@@ -43,7 +43,7 @@ public class MainFrame extends JFrame {
                 
                 @Override
                 public void mouseClicked(MouseEvent e) {
-                    onClicked.handle(e.getClickCount());
+                    onClicked.handle(e.getXOnScreen());
                 }
 
                 @Override
