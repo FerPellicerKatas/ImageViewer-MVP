@@ -41,7 +41,7 @@ public class ImagePresenter {
     }
     
     private void onClicked(int offset) {  
-        eventChange(-display.width());
+        eventChange(offset);
     }
         
     
