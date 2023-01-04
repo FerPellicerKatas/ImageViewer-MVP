@@ -3,7 +3,7 @@
 ## Descripción 
 Dada una ruta, con varias imágenes, se deberá desarrollar una aplicación que muestre las imágenes en pantalla y permita navegar entre ellas (siguiente y anterior imagen).
 
-Se puede pasar o retrocesder de imagen arrastrando, y también se puede pasar de imagen clickando en ella.
+Se puede pasar o retrocesder de imagen arrastrando, y también se puede pasar de imagen haciendo click en ella.
 
 En este proyecto se ha conseguido este objetivo aplicando MVP.
 
