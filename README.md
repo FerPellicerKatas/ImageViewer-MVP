@@ -11,6 +11,8 @@ Por otro lado, si la coordenada x del click obtenido se encuentra en posiciones 
 
 En este proyecto se ha conseguido este objetivo aplicando MVP.
 
+![Diagrama de clases](https://github.com/FerPellicerKatas/ImageViewer-MVP/blob/master/Diagrama%20de%20clases%20MVP.png)
+
 ## Muestra de funcionamiento del programa
 
 # Se muestra la primera imagen deslizando.
