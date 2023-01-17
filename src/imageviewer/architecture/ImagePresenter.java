@@ -58,9 +58,7 @@ public class ImagePresenter {
     }
     
     private void eventChangeClick(int offset) {
-        
         this.image = offset > display.width()/2 ? image.next() : image.prev();
-        
         refresh();
     }
     
