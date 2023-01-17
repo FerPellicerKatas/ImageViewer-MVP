@@ -20,6 +20,7 @@ public class MainFrame extends JFrame {
         this.setTitle("Image Viewer");
         this.setSize(800,600);
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.add(imagePanel = new ImagePanel());
     }

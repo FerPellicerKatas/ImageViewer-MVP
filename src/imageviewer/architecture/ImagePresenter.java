@@ -41,7 +41,7 @@ public class ImagePresenter {
     }
     
     private void onClicked(int offset) {  
-        eventChange(-display.width());
+        eventChangeClick(offset-display.width());
     }
         
     
@@ -54,6 +54,13 @@ public class ImagePresenter {
         if (Math.abs(offset) > display.width() / 2) {
             this.image = offset < 0 ? image.next() : image.prev();
         }
+        refresh();
+    }
+    
+    private void eventChangeClick(int offset) {
+        
+        this.image = offset > display.width()/2 ? image.next() : image.prev();
+        
         refresh();
     }
     
