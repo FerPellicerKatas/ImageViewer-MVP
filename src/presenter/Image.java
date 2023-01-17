@@ -1,4 +1,4 @@
-package imageviewer.architecture;
+package presenter;
 
 public interface Image {
     

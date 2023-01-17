@@ -1,7 +1,6 @@
-package imageviewer;
+package model;
 
-import imageviewer.architecture.Image;
-import imageviewer.architecture.ImageLoader;
+import presenter.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;

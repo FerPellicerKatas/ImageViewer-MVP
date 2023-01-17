@@ -1,4 +1,6 @@
-package imageviewer.architecture;
+package presenter;
+
+import view.ImageDisplay;
 
 public class ImagePresenter {
 

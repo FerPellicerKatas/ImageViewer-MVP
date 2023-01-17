@@ -1,6 +1,5 @@
-package imageviewer;
+package view;
 
-import imageviewer.architecture.ImageDisplay;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.MouseEvent;

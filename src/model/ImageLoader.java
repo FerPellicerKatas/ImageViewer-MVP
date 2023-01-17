@@ -1,4 +1,6 @@
-package imageviewer.architecture;
+package model;
+
+import presenter.Image;
 
 public interface ImageLoader {
     

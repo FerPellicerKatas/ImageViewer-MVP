@@ -1,8 +1,8 @@
-package imageviewer;
+package model;
 
-import imageviewer.architecture.ImageDisplay;
-import imageviewer.architecture.ImageLoader;
-import imageviewer.architecture.ImagePresenter;
+import view.MainFrame;
+import view.ImageDisplay;
+import presenter.ImagePresenter;
 import java.io.File;
 
 public class Main {
